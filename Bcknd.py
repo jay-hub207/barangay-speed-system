@@ -386,4 +386,5 @@ async def serve_home():
 app.mount("/", StaticFiles(directory=PUBLIC_DIR, html=True), name="public")
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=3000)
+    import uvicorn
+    uvicorn.run("Bcknd:app", host="0.0.0.0", port=3000, reload=True)
