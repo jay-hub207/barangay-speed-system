@@ -1,0 +1,21 @@
+{
+  "short_name": "SpeedMonitor",
+  "name": "Barangay Speed Monitoring System",
+  "icons": [
+    {
+      "src": "Logo.jpg",
+      "type": "image/jpeg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "Logo.jpg",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "display": "standalone",
+  "orientation": "portrait"
+}
